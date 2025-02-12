@@ -5,7 +5,7 @@ class ScoutosCli < Formula  # <-- Class name must match filename "scoutos-cli.rb
 
   if OS.mac?
     url "https://github.com/scoutos/cli/releases/download/latest/scout-cli-macos"
-    sha256 "7dcffbdee67bd213c49978bebc7022939a87bfa1fa06a624667fff2a9025fdc1"
+    sha256 "7dcffbdee67bd213c49978bebc7022939a87bfa1fa06a624667fff2a9025fdc9"
   elsif OS.linux?
     url "https://github.com/scoutos/cli/releases/download/v1.0.0/scout-cli-linux"
     sha256 "REPLACE_WITH_YOUR_LINUX_SHA256"
