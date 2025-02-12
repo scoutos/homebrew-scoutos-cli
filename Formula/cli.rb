@@ -1,10 +1,10 @@
-class ScoutCli < Formula
+class Cli < Formula
   desc "Scout CLI for managing AI workflows"
   homepage "https://github.com/scoutos/cli"
   version "1.0.0"  # Change this to match your release
 
   if OS.mac?
-    url "https://github.com/scoutos/cli/releases/download/latest/scout-cli-macos"
+    url "https://github.com/scoutos/cli/releases/download/v1.0.0/scout-cli-macos"
     sha256 "7dcffbdee67bd213c49978bebc7022939a87bfa1fa06a624667fff2a9025fdc9"
   elsif OS.linux?
     url "https://github.com/scoutos/cli/releases/download/v1.0.0/scout-cli-linux"
