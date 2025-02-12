@@ -1,7 +1,7 @@
-class Cli < Formula
+class ScoutosCli < Formula  # <-- Class name must match filename "scoutos-cli.rb"
   desc "Scout CLI for managing AI workflows"
   homepage "https://github.com/scoutos/cli"
-  version "1.0.0"  # Change this to match your release
+  version "1.0.0"
 
   if OS.mac?
     url "https://github.com/scoutos/cli/releases/download/v1.0.0/scout-cli-macos"
