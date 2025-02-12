@@ -1,4 +1,4 @@
-class Cli < Formula
+class ScoutCli < Formula
   desc "Scout CLI for managing AI workflows"
   homepage "https://github.com/scoutos/cli"
   version "1.0.0"  # Change this to match your release
